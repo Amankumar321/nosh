@@ -23,44 +23,46 @@ To get a local copy up and running follow these simple example steps.
 ```sh
 git clone https://github.com/github_username/repo_name.git
 ```
-2. Install npm packages (in ./client directory)
+2. Install npm packages
 ```sh
+cd client
 npm install
 ```
-3. Create and activate virtual python environment (in ./server directory)
+3. Create and activate virtual python environment
 ```sh
+cd server
 python -m venv
 cd venv/bin
 source activate
 ```
-4. Install pip packages (in ./server directory)
+4. Install pip packages
 ```sh
 pip install -r requirements.txt
 ```
-5. Populate the database with initial data (in ./server directory)
+5. Populate the database with initial data
 ```sh
 flask db reset
 ```
 
 ### Launch
 
-- Start backend (in ./server directory)
+- Start backend
 ```sh
 flask run
 ```
 
-- Start frontend (in ./client directory)
+- Start frontend
 ```sh
 npm start
 ```
 
 ## Testing
 
-- To test backend run (in ./server directory)
+- To test backend run
 ```sh
 pytest
 ```
-- To test frontend run (in ./client directory)
+- To test frontend run
 ```sh
 jest
 ```
