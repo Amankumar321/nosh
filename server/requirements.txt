@@ -1,4 +1,5 @@
-flask
-flask-db
-flask-socketio
-flask-sqlalchemy
+Flask
+Flask-DB
+Flask-SocketIO
+Flask-SQLAlchemy
+pytest
