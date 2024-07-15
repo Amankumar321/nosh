@@ -6,6 +6,7 @@ Build a solution to manage and display dish information, including creating a da
 
 - React.js
 - Flask
+- MaterialUI
 
 ## Getting Started
 
